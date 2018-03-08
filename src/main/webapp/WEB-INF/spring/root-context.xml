@@ -14,7 +14,7 @@
         name속성에 지정한 이름
          --> 
          
-		<property name="jndiName" value="jndi/maven"/>
+		<property name="jndiName" value="jndi/ft"/>
 		<!-- 
      	아래 속성(resourceRef)을 사용하지 않은 경우
          (디폴트 false)
