@@ -26,8 +26,6 @@ public class OneMemoController {
 	//서비스 주입]
 	@Resource(name="oneMemoService")
 	private OneMemoServiceImpl service;
-	@Resource(name="commentService")
-	private CommentServiceImpl commentService;
 	
 	//로그인 폼으로 이동]
 	@RequestMapping("/Login/Login.do")
