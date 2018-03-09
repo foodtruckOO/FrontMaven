@@ -1,7 +1,9 @@
 /*Mypage*/
 #mypage{
 	width:80%;
+	height:50px;
 	margin-left: 10%;
+	background-color: pink;
 }
 
 /*background*/

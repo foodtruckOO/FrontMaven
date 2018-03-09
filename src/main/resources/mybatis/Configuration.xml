@@ -10,10 +10,10 @@
 	
 	 <!-- 자바빈 별칭:매퍼파일에서 환경설정 파일로 위치됨. -->
 	 <typeAliases>
-	 	<typeAlias alias="oneMemoDto" type="com.sajo.foodtruck.service.OneMemoDto"/>
+	 	<typeAlias alias="oneMemoDto" type="com.sajo.foodtruck.service.CustomerDto"/>
 	 </typeAliases>	
 	 <!-- 매퍼파일(SQL쿼리 결과와 자바빈 매핑) 정보 설정 -->	
 	 <mappers>
-	 	<mapper resource="mybatis/OneMemo.xml"/>
+	 	<mapper resource="mybatis/Customer.xml"/>
 	 </mappers>
 </configuration>

@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>   
 <script type="text/javascript">
 	function popupOpen(){
-	var popUrl = "<c:url value='/com.sajo.foodtruck/front-end/views/login/Login.jsp'/>";	//팝업창에 출력될 페이지 URL
+	var popUrl = "<c:url value='/Login/Login.do'/>";	//팝업창에 출력될 페이지 URL
 	var popOption = "width=380, height=580, resizable=no, scrollbars=no, status=no, left=800, top=200, location=no;";    //팝업창 옵션(optoin)
 		window.open(popUrl,"",popOption);
 	} 
@@ -28,7 +28,7 @@
 						class="icon-bar"></span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="<c:url value='/com.sajo.foodtruck/front-end/views/main.jsp' />">FOODTRUCK</a>
+				<a class="navbar-brand" href="<c:url value='/' />">FOODTRUCK</a>
 			</div>
 			
 			<div id="navbar" class="navbar-collapse collapse">

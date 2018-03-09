@@ -34,6 +34,7 @@ public class OneMemoController {
 	public String login() throws Exception{
 		return "login/Login.tiles";
 	}
+	/*
 	//로그인 처리]
 	@RequestMapping("/Login/LoginProcess.do")
 	public String loginProcess(
@@ -59,7 +60,7 @@ public class OneMemoController {
 	//목록처리]
 	//리소스파일(memo.properties)에서 읽어오기
 	//리소스파일(resource.properties)에서 읽어오기
-	/*
+	
 	@Value("${PAGESIZE}")
 	private int pageSize;
 	@Value("${BLOCKPAGE}")
