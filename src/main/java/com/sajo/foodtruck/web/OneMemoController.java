@@ -15,10 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.sajo.foodtruck.impl.CommentServiceImpl;
 import com.sajo.foodtruck.impl.OneMemoServiceImpl;
 import com.sajo.foodtruck.impl.PagingUtil;
-import com.sajo.foodtruck.service.CommentDto;
 import com.sajo.foodtruck.service.OneMemoDto;
 
 @Controller
@@ -30,7 +28,7 @@ public class OneMemoController {
 	//로그인 폼으로 이동]
 	@RequestMapping("/Login/Login.do")
 	public String login() throws Exception{
-		return "login/Login.tiles";
+		return "login/Login";
 	}
 	/*
 	//로그인 처리]
