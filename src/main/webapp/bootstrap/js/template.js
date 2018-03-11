@@ -10,4 +10,6 @@ $(function(){
 		var position = $(window).scrollTop(); 
 		$("#sidebox").stop().animate({"top":position+currentPosition+"px"},1000);
 	});
+	$("#side_top").scrollTop(0);
+	$("#side_bottom").scrollTop($(document).height());
 });

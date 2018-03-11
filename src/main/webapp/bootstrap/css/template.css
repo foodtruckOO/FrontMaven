@@ -249,10 +249,11 @@ header .hd_flex div ul li{
 	right: 2%;
 }
 
-div #side{
+div #side_top, #side_bottom{
 	background-color: orange;
 	color: white;
 	font-weight: bold;
+	cursor: pointer;
 }
 
 
